@@ -17,7 +17,7 @@
 
 		<text name="logoText">
 			<fontPath>./art/Cabin-Bold.ttf</fontPath>
-			<color>8b0000</color>
+			<color>fe019a</color>
 			<forceUppercase>true</forceUppercase>
 		</text>
 	</view>
@@ -28,7 +28,7 @@
 			<size>0.460 0.126</size>
 			<fontSize>0.12</fontSize>
 			<fontPath>./art/Cabin-Bold.ttf</fontPath>
-			<color>8b0000</color>
+			<color>fe019a</color>
 			<forceUppercase>true</forceUppercase>
 		</text>
 		<image name="logo">

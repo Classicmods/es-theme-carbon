@@ -21,11 +21,11 @@ Element color: Search and replace colors. Do not use spaces!
 	<view name="system">
 
 		<image name="background" extra="true">
-			<tile>true</tile>
+			<tile>false</tile>
 			<size>1 1</size>
 			<pos>0 0</pos>
 			<origin>0 0</origin>
-			<path>./art/carbon_fiber.png</path>
+			<path>./art/background.png</path>
 		</image>
 
 		<helpsystem name="help">
@@ -39,7 +39,7 @@ Element color: Search and replace colors. Do not use spaces!
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
 			<path>./art/centerfade.png</path>
-			<color>8b000050</color>
+			<color>fe019a50</color>
 		</image>
 
 		<image name="BottomBar" extra="true">
@@ -48,28 +48,63 @@ Element color: Search and replace colors. Do not use spaces!
 			<pos>0 1</pos>
 			<origin>0 1</origin>
 			<path>./art/bottom.png</path>
-			<color>8b0000c0</color>
+			<color>fe019ac0</color>
 		</image>
 
 		<image name="ControllerOverlay" extra="true">
-			<color>8b0000</color>
+			<color>fe019a</color>
 		</image>
 
 	</view>
 
+  <feature supported="carousel">
+    <view name="system">
+    <carousel name="systemcarousel">
+      <type>horizontal</type>
+      <color>20d2f400</color>
+      <logoScale>1.9</logoScale>
+      <logoSize>0.15625 0.097222222222222</logoSize>
+    </carousel>
+      <text name="systemInfo">
+      <backgroundColor>14141400</backgroundColor>
+      <color>20d2f4FF</color>
+      <fontPath>./art/Cabin-Bold.ttf</fontPath>
+      <fontSize>0.0222222222222222</fontSize>
+    </text>
+      <image name="system-border" extra="true">
+      <origin>0.5 0</origin>
+      <pos>0.5 0.62</pos>
+      <size>0.25 0.0027777777777778</size>
+      <path>./art/space.png</path>
+      <color>fe019a50</color>
+    </image>
+      <text name="logoText">
+      <fontPath>./art/Cabin-Bold.ttf</fontPath>
+      <color>20d2f4FF</color>
+      <forceUppercase>true</forceUppercase>
+    </text>
+      <!--<image name="artwork" extra="true">
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.5</pos>
+      <size>0.3 0</size>
+      <path>./${system.theme}/_inc/art.svg</path>
+      </image>-->
+    </view>
+  </feature>
+
 	<view name="basic">
 
 		<image name="background" extra="true">
-			<tile>true</tile>
+			<tile>false</tile>
 			<pos>0 0</pos>
 			<origin>0 0</origin>
 			<size>1 1</size>
-			<path>./art/carbon_fiber.png</path>
+			<path>./art/background.png</path>
 		</image>
 
 		<textlist name="gamelist">
 			<selectorColor>1c1c1c</selectorColor>
-			<selectedColor>8b0000</selectedColor>
+			<selectedColor>fe019a</selectedColor>
 			<primaryColor>969696</primaryColor>
 			<secondaryColor>7a6161</secondaryColor>
 			<fontPath>./art/Cabin-Bold.ttf</fontPath>
@@ -121,11 +156,11 @@ Element color: Search and replace colors. Do not use spaces!
 	<view name="detailed, video">
 
 		<image name="background">
-			<tile>true</tile>
+			<tile>false</tile>
 			<pos>0 0</pos>
 			<origin>0 0</origin>
 			<size>1 1</size>
-			<path>./art/carbon_fiber.png</path>
+			<path>./art/background.png</path>
 		</image>
 
 		<text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_players, md_players, md_lbl_releasedate">
@@ -186,7 +221,7 @@ Element color: Search and replace colors. Do not use spaces!
 
 		<textlist name="gamelist">
 			<selectorColor>1c1c1c</selectorColor>
-			<selectedColor>8b0000</selectedColor>
+			<selectedColor>fe019a</selectedColor>
 			<primaryColor>969696</primaryColor>
 			<secondaryColor>7a6161</secondaryColor>
 			<fontPath>./art/Cabin-Bold.ttf</fontPath>
@@ -230,7 +265,7 @@ Element color: Search and replace colors. Do not use spaces!
 			<origin>0 1</origin>
 			<size>1 0.065</size>
 			<path>./art/bottom.png</path>
-			<color>8b0000</color>
+			<color>fe019a</color>
 		</image>
 
 		<image name="top" extra="true">
@@ -238,7 +273,7 @@ Element color: Search and replace colors. Do not use spaces!
 			<origin>0 0</origin>
 			<size>1 0.16</size>
 			<path>./art/top.png</path>
-			<color>8b0000</color>
+			<color>fe019a</color>
 		</image>
 
 	</view>
